@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
-    const day1 = 'secret-oasis-29823.herokuapp.com'
-    const day2 = 'us009.herokuapp.com'
+    const day1 = 'indecisive-cypress-twine.glitch.me'
+    const day2 = 'indecisive-cypress-twine.glitch.me'
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
       let day = new Date()
